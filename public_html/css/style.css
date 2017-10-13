@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/10/2017, 10:38:33 PM
+    Author     : pamela
+*/
+body {
+font-family : Roboto, sans-serif;
+background : #fff;
+}
+
+body p {
+color : #666666;
+font-family : Roboto, sans-serif;
+font-size : 14px;
+letter-spacing : 1px;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+color : #141414;
+font-family : Roboto, sans-serif;
+font-size : 18px;
+text-transform : capitalize;
+font-weight : 800;
+text-transform : uppercase;
+}
+
+a:hover {
+text-decoration : none;
+}
+
+
+/*Clases del Header*/
+.main_menu_sec {
+background : none 0 0 repeat scroll #198492;
+border : none 0;
+margin : 0;
+}
+
+.navbar {
+padding : 10px 0;
+transition : background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#nav_menu ul a {
+color : #ffffff;
+}
+.tituloSeccion{
+    margin : 0 auto;
+padding : 0 0 25px 0;
+text-align : center;
+}
+/*Clases slider*/
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fadeSLIDER {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.panel-footer{
+min-height: 60px;
+}
+
+
+.titulo, .titulo h1{
+    text-align: center;
+    color:#198492;
+    font-size: 25px;
+}
+
+.dotSliders{
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+
+
+.columnas-cuatro-pasos{
+    background: #7cc9cf;
+    padding: 20px;
+        border-radius: 10px 
+}
+
+.ft ul {
+margin : 0;
+padding : 0;
+text-align : center;
+}
+.ft ul li {
+list-style : none outside none;
+padding-right : 10px;
+display : inline;
+}
+.ft ul li a {
+border : #818181 solid 1px;
+border-radius : 50px;
+display : inline-block;
+margin : 0 auto;
+padding : 7px 11px;
+text-align : center;
+}
+.ft ul li a i {
+color : #363636;
+font-size : 15px;
+transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.ft ul li a i:hover {
+color : #00AFF0;transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s
+}
+.ft ul li .fa-facebook {
+padding : 3px;
+}
+
+.copy_right {
+margin : 0;
+padding : 0;
+}
+.copy_right li {
+font-size : 14px;
+font-weight : 600;
+list-style : none outside none;
+padding : 2px;
+text-align : center;
+color : #818181;
+text-transform : uppercase;
+}
+.copy_right {
+margin : 0;
+padding : 0;
+margin-top : 18px;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+       
+       
+       #informate, #contactenos , #laboratorio , #ofertas, #ubicanos{
+               padding: 50px 0px 0px 0px;
+       }
+       
+       #informate{
+               background: whitesmoke;
+       }
+       
+       .cnt_info ul li {
+    list-style: none outside none;
+    padding: 15px 0;
+}
+
+.textoBlanco{
+    color: white;
+}
+
+.textoCentrado{
+    text-align: center;
+}
